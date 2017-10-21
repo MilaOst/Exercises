@@ -1,7 +1,7 @@
 #import file
-t=read.csv('C:\\Users\\lyudm\\Documents\\Springboard\\Ex\\titanic_original.csv')
+t<-read.csv('C:\\Users\\lyudm\\Documents\\Springboard\\Ex\\titanic_original.csv')
 
-t=tbl_df(t)
+t<-tbl_df(t)
 View(t)
 
 #summarise
